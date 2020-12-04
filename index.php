@@ -71,12 +71,23 @@ else if( count($_POST)==5 && $_POST['id']!="" &&  $_POST['fname']!="" && $_POST[
 
     //Query de ingreso de datos
     $sql="INSERT INTO datos_users values('$NumID','$firtname','$lstname','$NumAge','$DirEmail');";
-    $conn->query($sql);
     
+    
+    if($conn->query($sql)){
 
-    //Ejecucion script registro exitoso
-    $scriptjavs = '<script> alert("Registro exitoso"); </script>';
-    print $scriptjavs;
+        //Ejecucion script registro exitoso
+        $scriptjavs = '<script> alert("Registro exitoso"); </script>';
+        print $scriptjavs;
+
+        
+    }
+    else{
+        
+        //Ejecucion script ya esta registrado el id
+        $scriptjavs = '<script> alert("El ID esta registrado en la base de datos"); </script>';
+        print $scriptjavs;
+    }
+    
 
     //limpia variables
     $NumID = "";
@@ -186,7 +197,7 @@ $imprimir = '
                                 <div class="col-md-6 text-center">
                                     <button type="submit" class="btn btn-primary btn-lg">Submit</button>
                                     <input class="btn btn-dark btn-lg" type="reset" value="Reset">
-                                    <a class="btn btn-warning btn-lg" href="imprimir.php" target="_blank">New Discussion</a>
+                                    <a class="btn btn-warning btn-lg" href="imprimir.php"">New Discussion</a>
                                 </div>
                             </div>
                             

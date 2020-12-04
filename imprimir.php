@@ -69,6 +69,11 @@ print ('
     <script src="/evidencia/js/jquery-3.5.1.min.js"></script>
     <script src="/evidencia/js/bootstrap.bundle.min.js"></script>
 </body>
+<div class="centered">
+    <div class="col-md-6 text-center">
+        <a class="btn btn-warning btn-lg" href="index.php">New Discussion</a>
+    </div>
+</div>
 ');
 mysqli_close($conn);
 ?>
