@@ -5,7 +5,7 @@ $username = "root";         //usuario
 $password = "";             //password
 
 $conn = mysqli_connect($servername, $username, $password); //conexion con la base de datos
-/*
+
 if (!$conn) { //Si no hay conexion
     die('Could not connect: ' . mysql_error()); //Mata proceso
 }
@@ -13,7 +13,7 @@ else{
     print "<script> console.log('Conexion exitosa'); 
     </script>";     //Imprimi en consolo Exitosa
 }
-*/
+
 $conn->select_db("DB_users");  
 
 $sql = "SELECT * FROM datos_users"; //Guarda en la variable SQL un query de crear database
@@ -29,6 +29,14 @@ print('
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/evidencia/css/bootstrap.min.css">
+    <style>
+        .centered {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bot: 20px;
+        }
+    </style>
 
 </head>
 
