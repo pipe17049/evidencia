@@ -145,14 +145,14 @@ $imprimir = '
                             <h2 class="text-center header"> Formulario </h2>
                             <div class="form-group centered">
                                 
-                                <div class="col-md-4 col-sm-5">
+                                <div class="col-10 col-sm-11 col-md-10 col-lg-10 col-xl-10">
                                     <input id="NoId" name="id" type="number" placeholder="Ingrese su ID"
                                         class="form-control">
                                 </div>
                             </div>
                             <div class="form-group centered">
                                 
-                                <div class="col-md-8">
+                                <div class="col-10 col-sm-11 col-md-10 col-lg-10 col-xl-10">
                                     <input id="fname" name="fname" type="text" placeholder="First Name"
                                         class="form-control">
                                 </div>
@@ -160,7 +160,7 @@ $imprimir = '
 
                             <div class="form-group centered">
                                 
-                                <div class="col-md-8">
+                                <div class="col-10 col-sm-11 col-md-10 col-lg-10 col-xl-10">
                                     <input id="lname" name="lname" type="text" placeholder="Last Name"
                                         class="form-control">
                                 </div>
@@ -168,14 +168,14 @@ $imprimir = '
 
                             <div class="form-group centered">
                                 
-                                <div class="col-md-8">
+                                <div class="col-10 col-sm-11 col-md-10 col-lg-10 col-xl-10">
                                     <input id="age" name="age" type="number" placeholder="Age" class="form-control">
                                 </div>
                             </div>
 
                             <div class="form-group centered">
                                 
-                                <div class="col-md-8">
+                                <div class="col-10 col-sm-11 col-md-10 col-lg-10 col-xl-10">
                                     <input id="email" name="email" type="email" placeholder="Email" class="form-control">
 
                                 </div>
@@ -186,6 +186,7 @@ $imprimir = '
                                 <div class="col-md-6 text-center">
                                     <button type="submit" class="btn btn-primary btn-lg">Submit</button>
                                     <input class="btn btn-dark btn-lg" type="reset" value="Reset">
+                                    <a class="btn btn-warning btn-lg" href="imprimir.php" target="_blank">New Discussion</a>
                                 </div>
                             </div>
                             
