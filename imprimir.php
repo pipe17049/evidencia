@@ -79,7 +79,7 @@ print ('
 </body>
 <div class="centered">
     <div class="col-md-6 text-center">
-        <a class="btn btn-warning btn-lg" href="index.php">New Discussion</a>
+        <a class="btn btn-warning btn-lg" href="/evidencia">New Discussion</a>
     </div>
 </div>
 ');

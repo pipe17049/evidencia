@@ -137,7 +137,7 @@ $imprimir = '
             display: flex;
             align-items: center;
             justify-content: center;
-            padding-bot: 20px;
+            padding-bottom: 20px;
         }
         h2{
             color : crimson;
