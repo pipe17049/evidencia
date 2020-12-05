@@ -1,0 +1,17 @@
+Buen dia, se ejecuto tanto en linux como en windows y el sistema esta funcionado.
+
+Se debe copiar la carpeta total a htdocs y carga bien en ambos sistemas.
+
+Se uso XAMPP en ultima version, PHP 7+ por los comandos de SQL.
+
+El ejemplo crea una base de datos de 0, por lo cual es recomendado ejecutar el SQL ejecutar_despues para borrar esta base de datos.
+
+Primero se debe crear un registro dentro del formulario, porque si no se crea, el boton imprimir dira que no 
+encuentra base de datos, para lo cual se debe hacer retroceso e iniciar.
+
+Despues de crear el primer registro, el boton imprimir funciona correctamente con la ventana en una tabla de los datos.
+
+Gracias por su colaboracion.
+
+Andres Felipe Escobar G2
+
