@@ -79,7 +79,7 @@ if($result=mysqli_query($conn,$sql)){
     </body>
     <div class="centered">
         <div class="col-md-6 text-center">
-            <a class="btn btn-warning btn-lg" href="/evidencia">New Discussion</a>
+            <a class="btn btn-warning btn-lg" href="/evidencia">Retroceder</a>
         </div>
     </div>
     ');

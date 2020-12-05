@@ -164,7 +164,7 @@ $imprimir = '
                             <div class="form-group centered">
                                 
                                 <div class="col-10 col-sm-11 col-md-10 col-lg-10 col-xl-10">
-                                    <input id="fname" name="fname" type="text" placeholder="First Name"
+                                    <input id="fname" name="fname" type="text" placeholder="Ingrese su nombre"
                                         class="form-control">
                                 </div>
                             </div>
@@ -172,7 +172,7 @@ $imprimir = '
                             <div class="form-group centered">
                                 
                                 <div class="col-10 col-sm-11 col-md-10 col-lg-10 col-xl-10">
-                                    <input id="lname" name="lname" type="text" placeholder="Last Name"
+                                    <input id="lname" name="lname" type="text" placeholder="Ingrese su apellido"
                                         class="form-control">
                                 </div>
                             </div>
@@ -180,14 +180,14 @@ $imprimir = '
                             <div class="form-group centered">
                                 
                                 <div class="col-10 col-sm-11 col-md-10 col-lg-10 col-xl-10">
-                                    <input id="age" name="age" type="number" placeholder="Age" class="form-control">
+                                    <input id="age" name="age" type="number" placeholder="Ingrese su edad" class="form-control">
                                 </div>
                             </div>
 
                             <div class="form-group centered">
                                 
                                 <div class="col-10 col-sm-11 col-md-10 col-lg-10 col-xl-10">
-                                    <input id="email" name="email" type="email" placeholder="Email" class="form-control">
+                                    <input id="email" name="email" type="email" placeholder="Ingrese su email" class="form-control">
 
                                 </div>
                             </div>
@@ -197,7 +197,7 @@ $imprimir = '
                                 <div class="col-md-6 text-center">
                                     <button type="submit" class="btn btn-primary btn-lg">Submit</button>
                                     <input class="btn btn-dark btn-lg" type="reset" value="Reset">
-                                    <a class="btn btn-warning btn-lg" href="imprimir.php"">New Discussion</a>
+                                    <a class="btn btn-warning btn-lg" href="imprimir.php"">Imprimir</a>
                                 </div>
                             </div>
                             
